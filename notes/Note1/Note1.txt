@@ -1,0 +1,35 @@
+Criar uma variável global vez do jogador. 
+
+
+global.vez_do_jogador = [1, 2]; 
+
+após aplicar o valor em algum obj_bloco para o tabuleiro. global.vez_do_jogador != global.vez_do_jogador;
+
+Dependendo da vez X jogador não consegue movimentar suas peças
+
+if (global.vez_do_jogador == jogador)
+{
+	movimento
+}
+
+
+
+switch case "vazio"
+
+	bloco_valor == 0
+
+		var _peca_atual = 		global.tamanho_peça;
+	
+
+		case ocupado
+	bloco_valor != 0;
+		variável global [1 pequeno < 2 médio < 3]
+		var _nova_peca = global.tamanho_peca
+		if _peca_nova > peca_atual {instance_destroy(_peca_atual) atualiza grid} else {xstart ystart}
+		global.tamanho_da_peça - ocupado < global.tamanho_da_peça - atual {
+			intance_destroy(peça_ocupado)
+		} else {
+			xstart
+			ystart
+		}
+		_atualiza_grid = global.jogador1
