@@ -1,0 +1,1 @@
+som_jogo = global.snd_volume;
