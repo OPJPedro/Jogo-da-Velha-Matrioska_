@@ -12,3 +12,5 @@ global.snd_volume = 0.8;
 //global.selecao_personagem = noone
 global.personagem_p1 = noone
 global.personagem_p2 = noone
+global.qntd_vitoria_p1 = 0;
+global.qntd_vitoria_p2 = 0;

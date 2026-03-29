@@ -23,7 +23,6 @@ if global.vez_do_jogador == jogador {
 	global.jogador_1 = jogador
 	// Balança a rotação em 10 graus para cada lado
     image_angle = sin(get_timer() / 100000) * 10;
-		
 	x = mouse_x;
 	y = mouse_y;
 	
