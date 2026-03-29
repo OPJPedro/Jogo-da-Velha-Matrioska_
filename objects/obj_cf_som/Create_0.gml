@@ -1,1 +1,1 @@
-som_jogo = global.snd_volume;
+//som_jogo = global.snd_volume;

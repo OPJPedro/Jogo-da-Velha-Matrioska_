@@ -8,6 +8,10 @@ for (var i = 0; i < 3; i++)
 	//tabuleiro cria 3 listas preenchidas com 0. Uma grid.
     tabuleiro[i] = array_create(3, 0);
 };
+//cheio = true;
+ativa_alarme = false;
+inicia_alarme = false;
+
 
 /* cria:
 

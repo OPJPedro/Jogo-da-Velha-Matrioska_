@@ -1,2 +1,2 @@
 draw_self()
-draw_text(x - 60,y - 10, "CONFIGURACOES")
+draw_text(x - 52,y - 7, "CONFIGURACOES")

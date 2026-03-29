@@ -58,25 +58,9 @@ if
 
 	}  
 
-var _cheio = true;
 
-for (var l = 0; l < 3; l++)
+if (ativa_alarme == true && !inicia_alarme)
 {
-    for (var c = 0; c < 3; c++)
-    {
-        if (tabuleiro[l][c] == 0)
-        {
-            _cheio = false;
-            break;
-        }
-    }
-    
-    if (!_cheio) break;
+	inicia_alarme = true
+	alarm[0] = room_speed * 2
 }
-
-if (_cheio)
-{
-    show_message("Deu velha!");
-	room_restart();
-}
-
