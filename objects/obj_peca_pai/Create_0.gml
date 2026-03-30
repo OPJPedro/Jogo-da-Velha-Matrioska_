@@ -33,7 +33,3 @@ switch (global.personagem)
 	//sprite_index = aleatorio
 	//break
 }
-
-
-
-show_debug_message(global.aleatorio)

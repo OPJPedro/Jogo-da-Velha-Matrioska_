@@ -11,8 +11,9 @@ for (var i = 0; i < 3; i++)
 //cheio = true;
 ativa_alarme = false;
 inicia_alarme = false;
+p_ganhou = false;
 
-
+contabiliza_ponto = false;
 /* cria:
 
 	0 0 0

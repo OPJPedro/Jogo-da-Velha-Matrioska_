@@ -9,6 +9,7 @@ if (!p1_ready)
     if (keyboard_check_pressed(ord("F")))
     {
         p1_ready = true; //selecionou o personagem
+		audio_play_sound(snd_seleciona, 80, false, global.snd_sfx)
     }
 }
 
@@ -26,6 +27,7 @@ if (!p2_ready)
     if (keyboard_check_pressed(vk_enter))
     {
         p2_ready = true;
+		audio_play_sound(snd_seleciona, 80, false, global.snd_sfx)
     }
 }
 

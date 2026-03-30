@@ -23,3 +23,14 @@ if (cheio)
 	
 }
 
+if (p_ganhou)
+{
+	if jogador == 1
+	{
+		draw_sprite(spr_p_ganhou, 0 , 320, 380 - _anim)
+		
+	} else 
+	{
+		draw_sprite(spr_p_ganhou, 1, 320, 380 - _anim)
+	}
+}

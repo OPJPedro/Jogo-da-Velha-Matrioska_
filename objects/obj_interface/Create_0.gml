@@ -1,0 +1,1 @@
+//finaliza_jogo = false;

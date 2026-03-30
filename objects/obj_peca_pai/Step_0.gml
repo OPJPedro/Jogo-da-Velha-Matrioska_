@@ -13,6 +13,7 @@ if global.vez_do_jogador == jogador {
             {
                 //MUDA DE ESTADO
                 estado = "movendo"
+				audio_play_sound(snd_pega_peca, 90, false, global.snd_sfx)
             }
         }
 
@@ -59,6 +60,7 @@ if global.vez_do_jogador == jogador {
                 x = _bloco.x;
                 y = _bloco.y;
 				image_angle = 0;
+				audio_play_sound(snd_coloca_peca, 80, false, global.snd_sfx)
 					
                 // 2. Atualiza os dados do BLOCO
                 _bloco.bloco_valor = jogador;
@@ -71,7 +73,7 @@ if global.vez_do_jogador == jogador {
                 // 4. Passa o turno
                 global.vez_do_jogador = 3 - global.vez_do_jogador;
                 
-                show_debug_message("Peça colocada! Grid atualizado.");
+                //show_debug_message("Peça colocada! Grid atualizado.");
             }
             else 
             {
@@ -79,7 +81,8 @@ if global.vez_do_jogador == jogador {
                 // Volta para a posição inicial.
                 x = xstart;
                 y = ystart;
-                show_debug_message("Movimento inválido: a peça não é grande o suficiente.");
+				audio_play_sound(snd_nega_peca, 80, false, global.snd_sfx)
+                //show_debug_message("Movimento inválido: a peça não é grande o suficiente.");
             }
         } 
         else // Se não soltou em cima de nenhum bloco
